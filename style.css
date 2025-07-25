@@ -220,4 +220,29 @@ h1{
   padding: 15px 10px;
 }
 
- 
+ @media screen and (max-width: 576px){
+  .container{
+    flex-direction: row;
+    align-items: center;
+    width: 361px;
+    height: 38px;
+    margin: 20px auto;
+  }
+   .logo img{
+    width: 75px;
+    height: 40px;
+   }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav a {
+    display: none;
+  }
+
+  nav a:last-child {
+    display: flex;
+    align-items: center;
+  }
+ }
