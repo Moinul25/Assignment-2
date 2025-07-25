@@ -146,9 +146,9 @@ h1{
 }
 
 .join-section{
-  background: url(assets/news-letter-bg.png) no-repeat center center/cover;
-  max-width: 1440px;
-  max-height: 500px;
+  background: url(assets/news-letter-bg.png) no-repeat;
+  width: 1440px;
+  height: 500px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -164,9 +164,8 @@ h1{
   font-weight: 700;
 }
 .subscribe-form input[type="email"] {
-  max-width: 404px;
-  height: auto;
-  padding: 10px 50px;
+  width: 404px;
+  padding: 10px 40px;
   border: none;
 }
 
@@ -245,4 +244,40 @@ h1{
     display: flex;
     align-items: center;
   }
- }
+  /* Banner */
+  .banner-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   align-items: left;
+   padding: 0px
+  }
+
+  .banner-image {
+    order: -1;
+    width: 393px;
+    height: 245px;
+    text-align: center;
+  }
+
+  .banner-image img {
+    width: 393.18px;
+    height: 245px;
+    object-fit: contain;
+  }
+ .text-content {
+    width: 361px;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .banner-description {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
